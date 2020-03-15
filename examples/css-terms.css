@@ -1,0 +1,27 @@
+/* 标签、class和id */
+h1 {
+  color: red;
+}
+
+.header-wrap {
+  background: blue;
+}
+
+#home-link {
+  font-size: 16px;
+}
+
+/* 属性选择器 */
+a[href] {
+  color: yellow;
+}
+
+/* 为了选择器 */
+a:hover {
+  color: red;
+}
+
+/* 组合 */
+.header-wrap>a {
+  font-weight: bold;
+}
